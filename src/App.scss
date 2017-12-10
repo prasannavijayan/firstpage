@@ -1,26 +1,22 @@
-.App {
-  text-align: center;
-  &-logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 80px;
+@import "./../node_modules/bootstrap/scss/bootstrap";
+
+// Global
+* {
+  outline: 0 !important;
+}
+
+.herounit {
+  height: 80vh;
+  @extend .d-flex;
+  @extend .justify-content-center;
+  @extend .align-items-center;
+
+  input {
+    border-radius: 0;
   }
-}
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  button {
+    @extend .mt-2;
+    border-radius: 0;
+  }
 }

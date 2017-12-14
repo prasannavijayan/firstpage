@@ -1,0 +1,15 @@
+// Calendar/Event
+.heading {
+	font-size: 20px;
+}
+
+.event {
+	border-left: 3px solid;
+	padding-left: 20px;
+	margin-bottom: 30px;
+
+	&-name {
+		font-size: 18px;
+		line-height: 30px;
+	}
+}

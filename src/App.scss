@@ -1,8 +1,10 @@
 @import "./../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 // Global
 * {
   outline: 0 !important;
+  font-family: "Lato", sans-serif;
 }
 
 .herounit {

@@ -5,7 +5,7 @@ class Header extends Component {
     return (
 			<nav className="navbar navbar-light bg-light">
 				<div className="container">
-			  	<span className="navbar-brand mb-0 h1">FirstPage</span>
+			  	<span className="navbar-brand mb-0 h1">GDG Madurai</span>
 			  </div>
 			</nav>
     );

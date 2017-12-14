@@ -5,6 +5,7 @@ class HomeContainer extends Component {
   render() {
     return (
     	<div>
+	      <p>About</p>
 	      <Subscription />
 	    </div>
     );

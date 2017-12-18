@@ -24,7 +24,7 @@ class Header extends Component {
 	}
 	renderEvent(event) {
 		return (
-			<div class="event">
+			<div className="event" key={event.name}>
 				<div className="event-name">{event.name}</div>
 				<div className="event-data"><Moment format="MMM DD, YYYY">{event.date}</Moment> | {event.total_attendees} - attendees</div>
 			</div>)

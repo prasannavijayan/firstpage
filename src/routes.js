@@ -4,7 +4,12 @@ import {
   Route
 } from 'react-router-dom'
 import './App.scss';
+
+// Components
 import Header from './Components/Header/Header.js';
+import Footer from './Components/Footer/Footer.js';
+
+// Containers
 import Home from './Containers/HomeContainer.js';
 import Event from './Containers/EventContainer.js';
 
@@ -13,9 +18,16 @@ export default class Routes extends Component {
     return (
       <Router>
         <div>
-          <Header />
-          <Route exact path="/" component={Home}/>
-          <Route path="/event" component={Event}/>
+          <div className="top">
+            <Header/>
+          </div>
+          <div className="middle">
+            <Route exact path="/" component={Home}/>
+            <Route path="/event" component={Event}/>
+          </div>
+          <div className="bottom">
+            <Footer/>
+          </div>
         </div>
       </Router>
     )

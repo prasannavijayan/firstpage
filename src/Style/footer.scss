@@ -1,0 +1,12 @@
+// Variables
+//==========
+$footer-bg-color:     #000 !default;
+$footer-text-color:   #fff !default;
+
+// Styles
+//=======
+footer {
+	background: $footer-bg-color;
+	color: $footer-text-color;
+	padding: 20px;
+}

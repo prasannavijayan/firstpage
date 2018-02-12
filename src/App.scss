@@ -1,17 +1,26 @@
 @import "./../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+// Global Variable
+$font-color: #fff !default;
+$bg-color:   #000 !default;
+
 // Global
 * {
   outline: 0 !important;
   font-family: "Lato", sans-serif;
+  color: $font-color;
+}
+
+body {
+  background-color: $bg-color;
 }
 
 .herounit {
   height: 80vh;
   @extend .d-flex;
+  @extend .flex-column;
   @extend .justify-content-center;
-  @extend .align-items-center;
 
   input {
     border-radius: 0;
@@ -23,6 +32,26 @@
   }
 }
 
+.bg-dark {
+  background-color: $bg-color !important;
+}
+
+.text-light {
+  color: $font-color;
+}
+
+.navbar-brand {
+  @extend .text-light;
+}
+
+// Anchor
+a {
+  color: $font-color !important;
+  &:hover {
+    color: $font-color !important;
+  }
+}
+
 // Links
 .links {
   a {
@@ -31,5 +60,11 @@
   }
 }
 
+// Layout
+
+
 // Calendar/Event
 @import "Style/event";
+
+// Footer
+@import "Style/footer";

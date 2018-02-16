@@ -2181,3 +2181,7 @@ In the future, we might start automatically compiling incompatible third-party m
 4. Before work on any issue please make sure you understand the issue and then get approval from concern person and give PR.
 
 Happy coding!
+
+
+## Listing Common issues
+https://github.com/facebook/jest/issues/3254

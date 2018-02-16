@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
 	// <img src="/img/logo.png" alt="Google Developers Group logo madurai"/>
@@ -10,10 +11,10 @@ class Header extends Component {
 			  		GDG Madurai
 			  	</span>
 			  	<div className="links">
-				    <a href="/">Home</a>
-				    <a href="/">Blog</a>
-				    <a href="/event">Events</a>
-				    <a href="/contact">Contact</a>
+				    <Link to="/">Home</Link>
+				    <Link to="/">Blog</Link>
+				    <Link to="/event">Events</Link>
+				    <Link to="/contact">Contact</Link>
 			  	</div>
 			  </div>
 			</nav>

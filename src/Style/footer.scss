@@ -3,10 +3,33 @@
 $footer-bg-color:     #000 !default;
 $footer-text-color:   #fff !default;
 
+$footer-font-size:           14px !default;
 // Styles
 //=======
 footer {
 	background: $footer-bg-color;
 	color: $footer-text-color;
 	padding: 20px;
+	font-size: $footer-font-size;
+}
+
+.social_links {
+	@extend .d-flex;
+	@extend .justify-content-center;
+	@extend .align-items-end;
+	padding-bottom: 20px;
+	a {
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: $footer-font-size + 4;
+	}
+}
+
+.quick_links {
+	@extend .container;
+
+	ul {
+		list-style: none;
+		margin-left: -40px;
+	}
 }

@@ -4,6 +4,7 @@
 // Global Variable
 $font-color: #fff !default;
 $bg-color:   #000 !default;
+$font-light-black: #6e6e6e !default;
 
 // Global
 * {
@@ -36,9 +37,15 @@ body {
   background-color: $bg-color !important;
 }
 
-.text-light {
-  color: $font-color;
+.text {
+  &-light {
+    color: $font-color;
+  }
+  &-light-black {
+    color: $font-light-black;
+  }
 }
+
 
 .navbar-brand {
   @extend .text-light;

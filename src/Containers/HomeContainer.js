@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import HelmetTitle from './../Components/Utilities/HelmetTitle.js';
+import WorkshopCards from './../Components/WorkshopCards/WorkshopCards.js';
 
 class HomeContainer extends Component {
   render() {
@@ -18,6 +19,7 @@ class HomeContainer extends Component {
 		      	</div>
 		      </div>
 		    </div>
+		    <WorkshopCards />
 		    <iframe title="Madurai location" className="fullscreen" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAeScrp22ORrstH2OV87DnxEQwkkoedoUE&q=Geomeo+Informatics+Pvt+Ltd"></iframe>
 		  </div>
     );

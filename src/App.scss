@@ -13,8 +13,14 @@ $font-light-black: #6e6e6e !default;
   color: $font-color;
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   background-color: $bg-color;
+  margin-bottom: 100px;
 }
 
 .herounit {

@@ -1,0 +1,18 @@
+// Variables
+
+// Utilities
+.lightTitle {
+	font-weight: 300;
+	margin-top: 50px;
+}
+
+.faq {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	p {
+		margin-bottom: 0;
+	}
+	.question {
+		@extend .text-light-black;
+	}
+}

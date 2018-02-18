@@ -12,6 +12,7 @@ import Footer from './Components/Footer/Footer.js';
 // Containers
 import Home from './Containers/HomeContainer.js';
 import Event from './Containers/EventContainer.js';
+import FAQ from './Containers/FAQContainer.js';
 
 export default class Routes extends Component {
   render() {
@@ -24,6 +25,7 @@ export default class Routes extends Component {
           <div className="middle">
             <Route exact path="/" component={Home}/>
             <Route path="/event" component={Event}/>
+            <Route path="/faq" component={FAQ}/>
           </div>
           <div className="bottom">
             <Footer/>

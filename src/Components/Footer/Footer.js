@@ -58,7 +58,7 @@ class Footer extends Component {
 						<h6 className="text-light-black">Quick Links</h6>
 						<ul>
 							<li>
-								<a href="/faq" rel="noopener noreferrer" target="_blank">FAQ (WIP)</a>
+								<a href="/faq" rel="noopener noreferrer" target="_blank">FAQ</a>
 							</li>
 							<li>
 								<a href="/blog" rel="noopener noreferrer" target="_blank">Blog (WIP)</a>

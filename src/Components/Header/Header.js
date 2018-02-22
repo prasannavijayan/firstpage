@@ -8,7 +8,7 @@ class Header extends Component {
 			<nav className="navbar navbar-light bg-dark">
 				<div className="container bg-dark">
 			  	<span className="navbar-brand mb-0 h1">
-			  		GDG Madurai
+			  		<Link to="/" className="nostyle">GDG Madurai</Link>
 			  	</span>
 			  	<div className="links">
 				    <Link to="/">Home</Link>

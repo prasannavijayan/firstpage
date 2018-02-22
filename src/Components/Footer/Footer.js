@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 // Google+, Facebook, Twitter Icons
 // import FaGoogle from 'react-icons/lib/fa/google-plus';
@@ -11,7 +12,7 @@ class Footer extends Component {
 			<footer className="bg-dark">
 				<div className="container d-flex justify-content-between">
 					<div className="text-light-black">
-						<p>Google Developers Group Madurai</p>
+						<p><Link to="/" className="nostyle">Google Developers Group Madurai</Link></p>
 						<p className="text-light-black">Copyrights &copy; 2018</p>
 					</div>
 					<div className="social_links">
